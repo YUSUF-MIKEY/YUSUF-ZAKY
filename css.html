@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial CSS - Malas Ngoding</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff; /* Ubah warna teks header */
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 8px;
+        }
+        nav {
+            background: #35424a;
+            color: #ffffff; /* Ubah warna teks navigasi */
+            padding: 10px 0;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff; /* Warna tautan tetap putih */
+            text-decoration: none;
+        }
+        .content {
+            background: #000000;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #ffffff; /* Ubah warna teks konten menjadi putih */
+        }
+        h2, h3 {
+            color: #ffffff; /* Ubah warna judul menjadi putih */
+        }
+        pre {
+            background: #3f4041;
+            padding: 10px;
+            border-radius: 5px;
+            overflow: auto;
+            color: #ffffff; /* Ubah warna teks dalam pre menjadi putih */
+        }
+        code {
+            font-family: 'Courier New', Courier, monospace;
+            color: #ffffff; /* Ubah warna teks dalam code menjadi putih */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff; /* Ubah warna teks footer menjadi putih */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Tutorial CSS</h1>
+            <p>Pelajari Dasar-Dasar CSS untuk Membangun Tampilan Situs Web Anda</p>
+        </header>
+
+        <!-- Navigasi -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+            </ul>
+        </nav>
+
+        <!-- Konten -->
+        <div class="content">
+            <h2>Apa itu CSS?</h2>
+            <p>CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain dan mengatur tampilan halaman web. CSS digunakan untuk mengontrol tata letak, warna, font, dan banyak aspek lainnya dari tampilan halaman web.</p>
+
+            <h3>Struktur Dasar CSS</h3>
+            <p>CSS terdiri dari selector dan declaration block. Berikut adalah contoh struktur CSS:</p>
+            <pre>
+<code>
+selector {
+    property: value;
+}
+</code>
+            </pre>
+
+            <h3>Contoh Penggunaan CSS</h3>
+            <p>Berikut adalah contoh penggunaan beberapa properti CSS:</p>
+            <pre>
+<code>
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #35424a;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+</code>
+            </pre>
+
+            <h3>Properti CSS yang Sering Digunakan</h3>
+            <ul>
+                <li><strong>color</strong>: Mengatur warna teks.</li>
+                <li><strong>background-color</strong>: Mengatur warna latar belakang.</li>
+                <li><strong>font-family</strong>: Mengatur jenis font.</li>
+                <li><strong>font-size</strong>: Mengatur ukuran font.</li>
+                <li><strong
+                    <li><strong>text-align</strong>: Mengatur perataan teks.</li>
+                    <li><strong>margin</strong>: Mengatur jarak antara elemen.</li>
+                    <li><strong>padding</strong>: Mengatur jarak antara elemen dan konten.</li>
+                </ul>
+    
+                <h3>Tips untuk Pemula</h3>
+                <ul>
+                    <li>Selalu gunakan selector yang spesifik untuk menghindari konflik dengan elemen lain.</li>
+                    <li>Gunakan unit yang sesuai untuk mengatur ukuran, seperti px, em, atau %.</li>
+                    <li>Validasi kode CSS Anda menggunakan validator CSS untuk memastikan tidak ada kesalahan.</li>
+                </ul>
+    
+                <h3>Kesimpulan</h3>
+                <p>Demikianlah tutorial CSS dasar yang telah kita pelajari. CSS adalah bahasa yang sangat penting untuk membuat tampilan halaman web yang baik dan benar. Dengan memahami dasar-dasar CSS, Anda dapat membuat tampilan halaman web yang lebih baik dan lebih menarik.</p>
+                <p>Terus pelajari dan berlatih untuk menjadi ahli CSS!</p>
+            </div>
+    
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2023 Malas Ngoding. Masa Depan Menanti.</p>
+            </footer>
+        </div>
+    </body>
+    </html>

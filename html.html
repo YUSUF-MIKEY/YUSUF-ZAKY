@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial HTML - Malas Ngoding</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff; /* Ubah warna teks header */
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 8px;
+        }
+        nav {
+            background: #35424a;
+            color: #ffffff; /* Ubah warna teks navigasi */
+            padding: 10px 0;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff; /* Warna tautan tetap putih */
+            text-decoration: none;
+        }
+        .content {
+            background: #01090e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #ffffff; /* Ubah warna teks konten menjadi putih */
+        }
+        h2, h3 {
+            color: #ffffff; /* Ubah warna judul menjadi putih */
+        }
+        pre {
+            background: #3f4041;
+            padding: 10px;
+            border-radius: 5px;
+            overflow: auto;
+            color: #ffffff; /* Ubah warna teks dalam pre menjadi putih */
+        }
+        code {
+            font-family: 'Courier New', Courier, monospace;
+            color: #ffffff; /* Ubah warna teks dalam code menjadi putih */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff; /* Ubah warna teks footer menjadi putih */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Tutorial HTML</h1>
+            <p>Pelajari Dasar-Dasar HTML untuk Membangun Situs Web Anda</p>
+        </header>
+
+        <!-- Navigasi -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+            </ul>
+        </nav>
+
+        <!-- Konten -->
+        <div class="content">
+            <h2>Apa itu HTML?</h2>
+            <p>HTML (Hypertext Markup Language) adalah bahasa markup standar untuk membuat halaman web. HTML digunakan untuk mendeskripsikan struktur konten di internet.</p>
+
+            <h3>Struktur Dasar HTML</h3>
+            <p>Setiap dokumen HTML dimulai dengan deklarasi DOCTYPE dan memiliki elemen-elemen dasar sebagai berikut:</p>
+            <pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="id"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Judul Halaman&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Halo, Dunia!&lt;/h1&gt;
+    &lt;p&gt;Ini adalah paragraf pertama saya.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+            </pre>
+
+            <h3>Elemen Penting dalam HTML</h3>
+            <ul>
+                <li><strong>&lt;h1&gt; hingga &lt;h6&gt;</strong>: Elemen heading digunakan untuk judul dan subjudul.</li>
+                <li><strong>&lt;p&gt;</strong>: Elemen paragraf digunakan untuk teks biasa.</li>
+                <li
+                <h3>Contoh Penggunaan Elemen HTML</h3>
+                <p>Berikut adalah contoh penggunaan beberapa elemen HTML:</p>
+                <pre>
+    <code>
+    &lt;h1&gt;Selamat Datang di Tutorial HTML&lt;/h1&gt;
+    &lt;p&gt;HTML adalah bahasa markup yang digunakan untuk membuat halaman web.&lt;/p&gt;
+    &lt;a href="https://www.example.com"&gt;Kunjungi Example.com&lt;/a&gt;
+    &lt;img src="gambar.jpg" alt="Contoh Gambar"&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Item 1&lt;/li&gt;
+        &lt;li&gt;Item 2&lt;/li&gt;
+        &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;/ul&gt;
+    </code>
+                </pre>
+    
+                <h3>Tips untuk Pemula</h3>
+                <ul>
+                    <li>Selalu gunakan struktur yang benar dengan tag pembuka dan penutup.</li>
+                    <li>Gunakan komentar untuk menjelaskan bagian kode yang kompleks: &lt;!-- Ini adalah komentar --&gt;</li>
+                    <li>Validasi kode HTML Anda menggunakan validator HTML untuk memastikan tidak ada kesalahan.</li>
+                </ul>
+    
+                <h3>Kesimpulan</h3>
+                <p>Demikianlah tutorial HTML dasar yang telah kita pelajari. HTML adalah bahasa markup yang sangat penting untuk membuat halaman web yang baik dan benar. Dengan memahami dasar-dasar HTML, Anda dapat membuat halaman web yang lebih baik dan lebih menarik.</p>
+                <p>Terus pelajari dan berlatih untuk menjadi ahli HTML!</p>
+            </div>
+    
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2023 Malas Ngoding. Masa Depan Menanti.</p>
+            </footer>
+        </div>
+    </body>
+    </html>

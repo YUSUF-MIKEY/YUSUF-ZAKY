@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial jQuery - Malas Ngoding</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff; /* Ubah warna teks header */
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 8px;
+        }
+        nav {
+            background: #35424a;
+            color: #ffffff; /* Ubah warna teks navigasi */
+            padding: 10px 0;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff; /* Warna tautan tetap putih */
+            text-decoration: none;
+        }
+        .content {
+            background: #000000;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #ffffff; /* Ubah warna teks konten menjadi putih */
+        }
+        h2, h3 {
+            color: #ffffff; /* Ubah warna judul menjadi putih */
+        }
+        pre {
+            background: #3f4041;
+            padding: 10px;
+            border-radius: 5px;
+            overflow: auto;
+            color: #ffffff; /* Ubah warna teks dalam pre menjadi putih */
+        }
+        code {
+            font-family: 'Courier New', Courier, monospace;
+            color: #ffffff; /* Ubah warna teks dalam code menjadi putih */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff; /* Ubah warna teks footer menjadi putih */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Tutorial jQuery</h1>
+            <p>Pelajari Dasar-Dasar jQuery untuk Membangun Tampilan Situs Web Anda</p>
+        </header>
+
+        <!-- Navigasi -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+            </ul>
+        </nav>
+                <!-- Konten jQuery -->
+                <div class="content">
+                    <h2>Apa itu jQuery?</h2>
+                    <p>jQuery adalah pustaka JavaScript yang dirancang untuk menyederhanakan proses penulisan skrip di sisi klien. jQuery memudahkan manipulasi dokumen HTML, penanganan acara, dan animasi.</p>
+        
+                    <h3>Menyertakan jQuery</h3>
+                    <p>Anda dapat menyertakan jQuery dalam proyek Anda dengan menambahkan tag <code>&lt;script&gt;</code> yang mengarah ke pustaka jQuery. Berikut adalah contoh cara menyertakan jQuery dari CDN:</p>
+                    <pre>
+        <code>
+        &lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+        </code>
+                    </pre>
+        
+                    <h3>Contoh Penggunaan jQuery</h3>
+                    <p>Berikut adalah contoh sederhana penggunaan jQuery untuk menyembunyikan elemen:</p>
+                    <pre>
+        <code>
+        &lt;script&gt;
+            $(document).ready(function() {
+                $("#tombol").click(function() {
+                    $("#pesan").hide();
+                });
+            });
+        &lt;/script&gt;
+        
+        &lt;button id="tombol"&gt;Sembunyikan Pesan&lt;/button&gt;
+        &lt;p id="pesan"&gt;Ini adalah pesan yang akan disembunyikan.&lt;/p&gt;
+        </code>
+                    </pre>
+        
+                    <h3>Manipulasi Elemen dengan jQuery</h3>
+                    <p>jQuery memudahkan manipulasi elemen HTML. Berikut adalah contoh menambahkan teks ke elemen:</p>
+                    <pre>
+        <code>
+        &lt;script&gt;
+            $(document).ready(function() {
+                $("#tombol").click(function() {
+                    $("#pesan").text("Pesan telah diperbarui!");
+                });
+            });
+        &lt;/script&gt;
+        
+        &lt;button id="tombol"&gt;Perbarui Pesan&lt;/button&gt;
+        &lt;p id="pesan"&gt;Ini adalah pesan awal.&lt;/p&gt;
+        </code>
+                    </pre>
+        
+                    <h3>Kesimpulan</h3>
+                    <p>jQuery adalah alat yang sangat berguna untuk pengembangan web, memungkinkan Anda untuk melakukan banyak tugas dengan lebih sedikit kode. Dengan memahami dasar-dasar jQuery, Anda dapat meningkatkan interaktivitas halaman web Anda.</p>
+                    <p>Teruslah berlatih dan eksplorasi lebih lanjut tentang jQuery untuk meningkatkan kemampuan Anda!</p>
+                </div>
+ <!-- Footer -->
+            <footer>
+                <p>&copy; 2023 Malas Ngoding. Masa Depan Menanti.</p>
+            </footer>
+        </div>
+    </body>
+    </html>
